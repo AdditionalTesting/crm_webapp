@@ -16,11 +16,10 @@ header {
 
 nav {
  color: white;
- background-color: grey;
  padding: 10px;
  text-align: center;
  margin-bottom: 60px;
- font-size: 36px;
+ font-size: 20px;
  font-weight: bolder;
 }
 
@@ -28,9 +27,15 @@ a {
  text-decoration: none;
  color: white;
 }
+ul {
+  list-style-type: none;
+}
 
 li {
  list-style: : none;
+ margin-bottom: 2px;
+ margin-top: 2px;
+ 
 }
 
 main {
@@ -49,4 +54,27 @@ footer {
 
 h1 {
  border-bottom: 5px solid black;
+}
+
+.contacts {
+  background-color: teal;
+  margin: 10px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+h4 {
+  background-color: salmon;
+  font-size: 18px;
+  padding: 8px;
+
+}
+
+.tops {
+  background-color: black;
+  padding: 5px 0px;
+}
+
+.navbar {
+  background-color: grey;
 }

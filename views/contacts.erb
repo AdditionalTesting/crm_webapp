@@ -1,8 +1,8 @@
-<h1> CONTACTS </h1>
 
-<h4> There are <div><%= Contact.count %></div> contacts.</h4>
+
+<h4> There are <%= Contact.count %> contacts.</h4>
 <ul>
 <% @list_of_contacts.each do |contact| %>
-<li> <%= contact.full_name %> (<%= contact.email %>) </li>
+<li class = 'contacts'> <%= contact.full_name %> (<%= contact.email %>) </li>
 <% end %>
 </ul>
