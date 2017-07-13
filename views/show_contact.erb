@@ -1,9 +1,9 @@
 
-<h1><%= @contact.full_name.capitalize %></h1>
+<h1><%= @contact.full_name %></h1>
 
 <ul>
-  <li>First Name: <%= @contact.first_name %></li>
-  <li>Last Name: <%= @contact.last_name %></li>
+  <li>First Name: <%= @contact.first_name.capitalize %></li>
+  <li>Last Name: <%= @contact.last_name.capitalize %></li>
   <li>Email: <%= @contact.email %></li>
   <li>Notes: <%= @contact.note %></li>
 </ul>
