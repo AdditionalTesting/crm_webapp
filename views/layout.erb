@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel:'stylesheet' href = '/styles.css'>
+    <link rel = 'stylesheet' href = 'public/styles.css'>
     <meta charset="utf-8">
     <title></title>
   </head>
   <body>
+    <nav>
+      <ul>
+        <li class = 'tops'> <h2> Bitmaker CRM </h2>
+        <li> <a href="localhost:4567"> Home </a></li>
+        <li> <a href="localhost:4567/contacts"> Add a contact </a></li>
+        <li> <a href="localhost:4567/about"> About </a></li>
+
+      </ul>
+    </nav>
+    <main>
  <%= yield %>
+    </main>
   </body>
 </html>

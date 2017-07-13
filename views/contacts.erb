@@ -1,10 +1,8 @@
 <h1> CONTACTS </h1>
 
-<a href="localhost:4567"> Main Page </a>   <a href="localhost:4567/contacts"> Contacts </a>   <a href="localhost:4567/about"> About </a>
-
-
+<h4> There are <div><%= Contact.count %></div> contacts.</h4>
 <ul>
 <% @list_of_contacts.each do |contact| %>
-<li> Name: <%= contact.full_name %>, Email: <%= contact.email %>, Note: <%= contact.note %> </li>
+<li> <%= contact.full_name %> (<%= contact.email %>) </li>
 <% end %>
 </ul>
