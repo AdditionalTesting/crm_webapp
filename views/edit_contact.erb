@@ -1,5 +1,7 @@
 <h1> Edit a Contact </h1>
 
+<a class='editcon' href="/contacts/<%= @contact.id %>">Contact Page</a>
+
 <form action='/contacts/<%= @contact.id %>' method='post'>
   <input type="hidden" name="_method" value='put'>
   <input type='text' name='first_name', value='<%= @contact.first_name %>'>
